@@ -4,7 +4,7 @@
 官方版：
 https://github.com/immortalwrt/immortalwrt.git
 
-高通版：
+VIKINGYFY：
 https://github.com/VIKINGYFY/immortalwrt.git
 
 # U-BOOT
