@@ -1,5 +1,5 @@
 #CI项目
-name: 开源固件编译
+name: 25.12开源固件编译
 
 #CI计划
 on:
@@ -36,8 +36,8 @@ jobs:
       #max-parallel: 3
       matrix:
         CONFIG: [MEDIATEK]
-        SOURCE: [VIKINGYFY/immortalwrt]
-        BRANCH: [owrt]
+        SOURCE: [immortalwrt/immortalwrt]
+        BRANCH: [openwrt-25.12]
 
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
