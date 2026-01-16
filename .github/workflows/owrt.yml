@@ -5,7 +5,7 @@ name: OWRT通用固件编译
 on:
   #自动编译：每天早上6点
   schedule:
-    - cron: 0 20 * * *
+    - cron: 0 22 * * *
   #自动编译：当Auto-Clean运行完成后
   workflow_run:
     workflows: ["Auto-Clean"]
